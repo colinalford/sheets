@@ -1,7 +1,8 @@
 angular.module('app', [])
 
-.controller('main', function($scope) {
-  $scope.data = {};
-  $scope.data.user = 'John';
-  $scope.data.email = 'john@butts.com'
+.controller('mainController', function($scope) {
+  $scope.subscribe = {};
+  $scope.subscribe.plan = 3;
+  $scope.subscribe.email = 'example@email.com';
+  $scope.subscribe.password = 'Enter password'
 });

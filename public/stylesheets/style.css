@@ -1,6 +1,19 @@
+body {
+  font-family: 'Slabo 27px', serif;
+}
+
+input {
+  max-width: 100%;
+}
+
 .green {
-  background-color: #697053;
+  background-color: #756A48;
   color: white;
+  padding: 2%;
+}
+
+.yellow {
+  background-color: #E1AF43;
 }
 
 .gray {
@@ -13,11 +26,27 @@
 }
 
 .red {
-  background-color: #D24D50;
+  background-color: #CE4E34;
   color: white;
 }
 
 .black {
-  background-color: #08080B;
+  background-color: #39393E;
   color: white;
+}
+
+.navbar-nav {
+  background-color: #756A48;
+}
+
+.iconic > img{
+  height: 300px;
+}
+
+.col-centered {
+  float: none;
+}
+
+.nav-links > span {
+  vertical-align: bottom;
 }
