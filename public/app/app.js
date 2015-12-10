@@ -5,4 +5,4 @@ angular.module('app', [])
   $scope.subscribe.plan = 3;
   $scope.subscribe.email = 'example@email.com';
   $scope.subscribe.password = 'Enter password'
-});
+})
